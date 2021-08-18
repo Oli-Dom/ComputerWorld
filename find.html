@@ -9,8 +9,9 @@
     <script type="module" src="lib/js/script.js" defer></script>
   </head>
   <body>
+    <h2> What are you searching for?</h2>
     <div id="options">
-      <form>
+   <form>
     <input type="radio" id="cpu" name="part" value="CPU">
     <label for="cpu">CPU</label><br>
     <input type="radio" id="gpu" name="part" value="GPU">
@@ -27,18 +28,7 @@
     <label for="storage">Storage</label><br>
   </form>
     </div>
-    <div class="slidecontainer">
-      <input
-        id="price_slider"
-        type="range"
-        min="1"
-        max="100"
-        value="50"
-        class="slider"
-        id="myRange"
-      />
-      <p id="price_display"></p>
-    </div>
+    
 
     <section id="cards"></section>
     <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
