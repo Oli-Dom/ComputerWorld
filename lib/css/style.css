@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: rgb(40, 216, 40);
+    font-size: 24px;
+}
+header{
+    text-align: center;
+    font-size: 60px;
+}
+#welcome p {
+    text-align: center;
+    font-size: 32px;
+}
+a {
+    text-decoration: none;
+}
+
+h1 {
+text-align: center;
+}
+

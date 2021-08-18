@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Computer World</title>
+    <link rel="stylesheet" href="lib/css/find.css" />
+    <script type="module" src="lib/js/script.js" defer></script>
+  </head>
+  <body>
+    <div id="options">
+      <form>
+    <input type="radio" id="cpu" name="part" value="CPU">
+    <label for="cpu">CPU</label><br>
+    <input type="radio" id="gpu" name="part" value="GPU">
+    <label for="gpu">GPU</label><br>
+    <input type="radio" id="mb" name="part" value="Mother board">
+    <label for="mb">Mother Board</label><br>
+    <input type="radio" id="psu" name="part" value="PSU">
+    <label for="psu">Power Supply</label><br>
+    <input type="radio" id="ram" name="part" value="RAM">
+    <label for="ram">Ram</label><br>
+    <input type="radio" id="case" name="part" value="CASE">
+    <label for="case">Case</label><br>
+    <input type="radio" id="storage" name="part" value="STORAGE">
+    <label for="storage">Storage</label><br>
+  </form>
+    </div>
+    <div class="slidecontainer">
+      <input
+        id="price_slider"
+        type="range"
+        min="1"
+        max="100"
+        value="50"
+        class="slider"
+        id="myRange"
+      />
+      <p id="price_display"></p>
+    </div>
+
+    <section id="cards"></section>
+    <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-analytics.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+    <script>
+      // TODO: Replace the following with your app's Firebase project configuration
+      // For Firebase JavaScript SDK v7.20.0 and later, `measurementId` is an optional field
+      var firebaseConfig = {
+        apiKey: "AIzaSyC9nIQjjkS6jt2BzAjQxjTdVIQXcF4Hq-I",
+        authDomain: "computerworld-4ef27.firebaseapp.com",
+        projectId: "computerworld-4ef27",
+        storageBucket: "computerworld-4ef27.appspot.com",
+        messagingSenderId: "261542192702",
+        appId: "1:261542192702:web:cc7edfdb9fc36fa45cd36f",
+        measurementId: "G-9XKDGC3S0H",
+      };
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </body>
+</html>

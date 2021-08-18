@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    color: rgb(40, 216, 40);
+    font-size: 22px;
+}
+
+#cpu{
+    border-bottom:1px solid rgb(20, 243, 20);
+    padding: px;
+}
+
+#mb{
+    border-bottom:1px solid rgb(20, 243, 20);
+    border-top:1px solid rgb(20, 243, 20);
+}
+
+#case{
+    border-top:1px solid rgb(20, 243, 20);
+}
+
+
+h3 {
+    font-size: 32px;
+}
+
+#cpu img{
+    width: 300px;
+}
+    
+#gpu img{
+    width: 325px;
+}
+
+#mb img{
+    width: 300px;
+}
+
+#ram img{
+   width: 300px;
+}
+
+#case img{
+    width: 300px;
+}
+
+
