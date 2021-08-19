@@ -6,6 +6,8 @@ body{
 header{
     text-align: center;
     font-size: 60px;
+     border:green solid 5px;
+    border-radius: 10px;
 }
 #welcome p {
     text-align: center;
